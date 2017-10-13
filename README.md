@@ -1,4 +1,4 @@
-# observable avec RxJS
+# Observable avec RxJS
 
 Exemples
 
