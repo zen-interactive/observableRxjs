@@ -2,6 +2,7 @@ let Observable = Rx.Observable;
 
 /*
  * Méthode avec Observable
+ * mettre la librairie rxjs
  * se placer sur "ES6/Babel"
  */
 let values = Observable.create((observer) => {
