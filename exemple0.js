@@ -2,6 +2,7 @@ let Observable = Rx.Observable;
 
 /*
  * Méthode avec Observable
+ * ES6
  */
 let values = Observable.create((observer) => {
   // synchrone
@@ -17,7 +18,8 @@ values.subscribe((v) => console.log(v));
 
 
 /*
- * Méthode avec générateur 
+ * Méthode avec générateur
+ * ES5
  */
  
 function* fruits(){
