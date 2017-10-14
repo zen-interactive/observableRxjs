@@ -26,6 +26,7 @@ function* fruits(){
   yield("pommes");
   yield("poires");
   yield("mangues");
+  yield("bananes");
 }
  
 let iteration = fruits();
