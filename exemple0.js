@@ -2,7 +2,7 @@ let Observable = Rx.Observable;
 
 /*
  * Méthode avec Observable
- * ES6
+ * se placer sur "ES6/Babel"
  */
 let values = Observable.create((observer) => {
   // synchrone
@@ -19,7 +19,7 @@ values.subscribe((v) => console.log(v));
 
 /*
  * Méthode avec générateur
- * ES5
+ * se placer sur "Javascript"
  */
  
 function* fruits(){
