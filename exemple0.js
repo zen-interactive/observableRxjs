@@ -13,6 +13,9 @@ let values = Observable.create((observer) => {
   setTimeout(() => observer.next("asynchrone"), 3000);
 });
 
+values.subscribe((v) => console.log(v));
+
+
 /*
  * Méthode avec générateur 
  */
